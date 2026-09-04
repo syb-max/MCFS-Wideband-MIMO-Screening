@@ -34,4 +34,7 @@ def run_all():
 
 
 if __name__ == "__main__":
-    print("\n".join(run_all()))
+    results = run_all()
+    print("\n".join(results))
+    if any(": ERROR:" in item for item in results):
+        raise SystemExit(1)
