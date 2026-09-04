@@ -27,7 +27,7 @@ def run_all():
     results = []
     for name, runner in runners:
         try:
-            results.append(runner())
+            results.append(str(runner()))
         except Exception as exc:  # pragma: no cover
             results.append(f"{name}: ERROR: {exc}")
     return results

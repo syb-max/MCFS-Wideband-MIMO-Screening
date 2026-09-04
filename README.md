@@ -28,4 +28,5 @@ Run all entrypoints:
 python code/run_all.py
 ```
 
+This currently runs stub entrypoints that print placeholder outputs.
 The CSV files in `data/` are scaffolding placeholders and are not populated datasets.
