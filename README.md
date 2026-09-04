@@ -1,2 +1,32 @@
 # MCFS-Wideband-MIMO-Screening
-MCFS-Wideband-MIMO
+
+Repository structure:
+
+```text
+MCFS-Wideband-MIMO-Screening/
+├── README.md
+├── LICENSE
+├── requirements.txt
+├── code/
+│   ├── proposed_mcfs.py
+│   ├── baseline_random.py
+│   ├── baseline_j_only.py
+│   ├── baseline_heuristic_uq.py
+│   ├── baseline_xgb_mcfs.py
+│   └── run_all.py
+└── data/
+    ├── ARCHIVE_500.csv
+    ├── PROSPECTIVE_200.csv
+    └── ALL_700.csv
+```
+
+## Usage
+
+Run all entrypoints:
+
+```bash
+python code/run_all.py
+```
+
+This currently runs stub entrypoints that print placeholder outputs.
+The CSV files in `data/` are scaffolding placeholders and are not populated datasets.
