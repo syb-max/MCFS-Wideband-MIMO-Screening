@@ -19,3 +19,13 @@ MCFS-Wideband-MIMO-Screening/
     ├── PROSPECTIVE_200.csv
     └── ALL_700.csv
 ```
+
+## Usage
+
+Run all entrypoints:
+
+```bash
+python code/run_all.py
+```
+
+The CSV files in `data/` are scaffolding placeholders and are not populated datasets.
